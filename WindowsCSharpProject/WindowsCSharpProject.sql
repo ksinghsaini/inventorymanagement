@@ -75,3 +75,4 @@ ALTER TABLE Vendor ADD CONSTRAINT unique_VendorName UNIQUE(Name);
 ALTER TABLE PurchaseOrder ADD CONSTRAINT fk_PurchaseOrder_inventoryID FOREIGN KEY(InventoryID) REFERENCES Inventory(InventoryID);
 ALTER TABLE PurchaseOrder ADD CONSTRAINT fk_PurchaseOrder_vendorID FOREIGN KEY(VendorID) REFERENCES Vendor(VendorID);
 
+--I added some queries and other working people, who are working on this project along with me needs to see those changes too, so I need to update it with the online git server.
