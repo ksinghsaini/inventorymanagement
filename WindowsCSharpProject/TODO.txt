@@ -1,0 +1,15 @@
+﻿This is the ::TODO File
+ 
+Add all the stuff we need to get finished ordered by priority
+1. Create Form(s) for update inventory and send invoice.
+	(Assigned: Mutual)
+2. Update Inventory --- (Assigned:Arshdeep)
+	-------------------
+	We can also (read: are going to ) create a virtual order (type of thing), so that whenever the inventory is updated for removing 
+	anything it creates a new record and stores all the information about the transaction
+	-------------------
+3. Send Purchase Order
+	------------------- (Assigned: Kirpal)
+	Create new table (PurchaseOrder)
+	Make the new form and enter all the information about what vendor to use and for that vendor, what product is to be ordered
+	Also ask the user to enter the quantity, store the transaction date (secretly).
